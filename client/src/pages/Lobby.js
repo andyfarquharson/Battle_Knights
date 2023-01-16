@@ -15,6 +15,7 @@ export default function Lobby({ players, socket }) {
 
   return (
     <div className="Lobby-container">
+      <div>Room: {roomId}</div>
       <div className="Lobby-avatar">
         {playersIds.map((playerId, i)=> {
           return (
